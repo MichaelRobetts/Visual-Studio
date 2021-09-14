@@ -109,6 +109,7 @@ namespace Calculator_App
         }
         private void multiplyButton_Click(object sender, EventArgs e)
         {
+            //Comment to test git
             function = 'x';
         }
 
