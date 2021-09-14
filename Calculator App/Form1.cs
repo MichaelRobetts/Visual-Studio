@@ -105,12 +105,10 @@ namespace Calculator_App
         }
         private void minusButton_Click(object sender, EventArgs e)
         {
-            //Another commit
             function = '-';
         }
         private void multiplyButton_Click(object sender, EventArgs e)
         {
-            //Comment to test git
             function = 'x';
         }
 
