@@ -8,3 +8,13 @@ C:\Users\mdeltoro\source\repos\Calculator App\obj\Debug\Calculator App.csproj.Ge
 C:\Users\mdeltoro\source\repos\Calculator App\obj\Debug\Calculator App.csproj.CoreCompileInputs.cache
 C:\Users\mdeltoro\source\repos\Calculator App\obj\Debug\Calculator App.exe
 C:\Users\mdeltoro\source\repos\Calculator App\obj\Debug\Calculator App.pdb
+C:\Users\mdeltoro\Documents\GitHub\Calculator App\bin\Debug\Calculator App.exe.config
+C:\Users\mdeltoro\Documents\GitHub\Calculator App\bin\Debug\Calculator App.exe
+C:\Users\mdeltoro\Documents\GitHub\Calculator App\bin\Debug\Calculator App.pdb
+C:\Users\mdeltoro\Documents\GitHub\Calculator App\obj\Debug\Calculator App.csproj.AssemblyReference.cache
+C:\Users\mdeltoro\Documents\GitHub\Calculator App\obj\Debug\Calculator_App.Form1.resources
+C:\Users\mdeltoro\Documents\GitHub\Calculator App\obj\Debug\Calculator_App.Properties.Resources.resources
+C:\Users\mdeltoro\Documents\GitHub\Calculator App\obj\Debug\Calculator App.csproj.GenerateResource.cache
+C:\Users\mdeltoro\Documents\GitHub\Calculator App\obj\Debug\Calculator App.csproj.CoreCompileInputs.cache
+C:\Users\mdeltoro\Documents\GitHub\Calculator App\obj\Debug\Calculator App.exe
+C:\Users\mdeltoro\Documents\GitHub\Calculator App\obj\Debug\Calculator App.pdb

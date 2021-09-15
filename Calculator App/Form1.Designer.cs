@@ -47,6 +47,8 @@ namespace Calculator_App
             this.calculatorDisplay = new System.Windows.Forms.TextBox();
             this.deleteButton = new System.Windows.Forms.Button();
             this.divideButton = new System.Windows.Forms.Button();
+            this.MinusPlusButton = new System.Windows.Forms.Button();
+            this.modulusButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // SevenButton
@@ -230,7 +232,7 @@ namespace Calculator_App
             this.deleteButton.Font = new System.Drawing.Font("Microsoft Uighur", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.deleteButton.Location = new System.Drawing.Point(12, 85);
             this.deleteButton.Name = "deleteButton";
-            this.deleteButton.Size = new System.Drawing.Size(237, 68);
+            this.deleteButton.Size = new System.Drawing.Size(75, 68);
             this.deleteButton.TabIndex = 1;
             this.deleteButton.Text = "AC";
             this.deleteButton.UseVisualStyleBackColor = true;
@@ -247,11 +249,35 @@ namespace Calculator_App
             this.divideButton.UseVisualStyleBackColor = true;
             this.divideButton.Click += new System.EventHandler(this.divideButton_Click);
             // 
+            // MinusPlusButton
+            // 
+            this.MinusPlusButton.Font = new System.Drawing.Font("Microsoft Uighur", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MinusPlusButton.Location = new System.Drawing.Point(93, 82);
+            this.MinusPlusButton.Name = "MinusPlusButton";
+            this.MinusPlusButton.Size = new System.Drawing.Size(75, 68);
+            this.MinusPlusButton.TabIndex = 5;
+            this.MinusPlusButton.Text = "-/+";
+            this.MinusPlusButton.UseVisualStyleBackColor = true;
+            this.MinusPlusButton.Click += new System.EventHandler(this.MinusPlusButton_Click);
+            // 
+            // modulusButton
+            // 
+            this.modulusButton.Font = new System.Drawing.Font("Microsoft Uighur", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.modulusButton.Location = new System.Drawing.Point(174, 82);
+            this.modulusButton.Name = "modulusButton";
+            this.modulusButton.Size = new System.Drawing.Size(75, 68);
+            this.modulusButton.TabIndex = 6;
+            this.modulusButton.Text = "%";
+            this.modulusButton.UseVisualStyleBackColor = true;
+            this.modulusButton.Click += new System.EventHandler(this.modulusButton_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(349, 471);
+            this.Controls.Add(this.modulusButton);
+            this.Controls.Add(this.MinusPlusButton);
             this.Controls.Add(this.calculatorDisplay);
             this.Controls.Add(this.equalButton);
             this.Controls.Add(this.decimalButton);
@@ -297,6 +323,8 @@ namespace Calculator_App
         private System.Windows.Forms.TextBox calculatorDisplay;
         private System.Windows.Forms.Button deleteButton;
         private System.Windows.Forms.Button divideButton;
+        private System.Windows.Forms.Button MinusPlusButton;
+        private System.Windows.Forms.Button modulusButton;
     }
 }
 
